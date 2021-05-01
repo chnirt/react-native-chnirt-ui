@@ -1,18 +1,18 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import ChnirtUi from 'react-native-chnirt-ui';
+import { StyleSheet, View } from 'react-native';
+import { multiply, MyText } from 'react-native-chnirt-ui';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    ChnirtUi.multiply(3, 7).then(setResult);
+    multiply(3, 7).then(setResult);
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <MyText h2>Result: {result}</MyText>
     </View>
   );
 }
