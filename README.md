@@ -29,3 +29,7 @@ MIT
 ## See more
 
 How to Update an npm Package (Fixing "You cannot publish over the previously published versions"): https://simplernerd.com/update-published-npm-package/
+
+ENHANCE YOUR COMMITS WITH GIT HOOKS!
+:
+https://delicious-insights.com/en/posts/git-hooks-commit/
