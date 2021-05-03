@@ -1,6 +1,6 @@
 {
   "name": "react-native-chnirt-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "UI Chnirt is a React Native UI Library that allows you creating stunning multi-brand cross-platform mobile applications. The library is based on Eva Design System which brings consistency and scalability in the design and development process. It contains a set of general purpose UI components styled in a similar way. And the most awesome thing: the themes can be changed in the runtime, with no need to reload the application.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
